@@ -27,6 +27,7 @@ function Hero() {
               className="pr-3 hover:text-white"
               href="https://www.linkedin.com/in/rajaramana308/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FaLinkedin size={30} />
             </a>
@@ -34,24 +35,29 @@ function Hero() {
               className="pr-3 hover:text-white"
               href="https://wa.me/9385754667"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FaWhatsapp size={30} />
             </a>
             <a
               className="pr-3 hover:text-white"
               href="https://www.instagram.com/rajatheking2308/?next=%2F"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <BsInstagram size={30} />
             </a>
             <a
               className="hover:text-white"
               href="https://github.com/RajaRamanan308"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaGithub size={30} />
             </a>
           </div>
         </div>
-        <img className="md:w-1/3" src={HeroImg} />
+        <img className="md:w-1/3" src={HeroImg} alt="" />
       </section>
       <script src="speed.js"></script>
     </>

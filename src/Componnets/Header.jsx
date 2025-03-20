@@ -7,28 +7,40 @@ function Header() {
   return (
     <>
       <header className="header flex justify-between px-5 py-2 bg-secondary">
-        <a className="font-bold text-black" href="#">
+        <a
+          className="font-bold text-black"
+          href="/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Portfolio
         </a>
         <nav className="hidden md:block">
           <ul className="flex text-white">
             <li>
-              <a href="#">Home</a>
+              <a href="/" target="_blank" rel="noopener noreferrer">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about" target="_blank" rel="noopener noreferrer">
+                About
+              </a>
             </li>
             <li>
-              <a href="#resume">Resume</a>
+              <a href="#resume" target="_blank" rel="noopener noreferrer">
+                Resume
+              </a>
             </li>
             <li>
-              <a href="#">Skills</a>
+              <a href="#project" target="_blank" rel="noopener noreferrer">
+                Projects
+              </a>
             </li>
             <li>
-              <a href="#project">Projects</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact" target="_blank" rel="noopener noreferrer">
+                Contact
+              </a>
             </li>
           </ul>
         </nav>
@@ -39,22 +51,29 @@ function Header() {
               className="flex flex-col text-white mobile-nav"
             >
               <li>
-                <a href="#">Home</a>
+                <a href="/" target="_blank" rel="noopener noreferrer">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#about" target="_blank" rel="noopener noreferrer">
+                  About
+                </a>
               </li>
               <li>
-                <a href="#resume">Resume</a>
+                <a href="#resume" target="_blank" rel="noopener noreferrer">
+                  Resume
+                </a>
               </li>
               <li>
-                <a href="#">Skills</a>
+                <a href="#project" target="_blank" rel="noopener noreferrer">
+                  Projects
+                </a>
               </li>
               <li>
-                <a href="#project">Projects</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact" target="_blank" rel="noopener noreferrer">
+                  Contact
+                </a>
               </li>
             </ul>
           </nav>

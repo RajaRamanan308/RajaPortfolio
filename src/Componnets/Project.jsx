@@ -25,7 +25,7 @@ export default function Project() {
       <div className="w-full">
         <div className="flex flex-col md:flex-row px-10 gap-5">
           <div className="relative">
-            <img className="h-[200px] w-[500px]" src={ecomweb1} />
+            <img className="h-[200px] w-[500px]" src={ecomweb1} alt="" />
             <div className="absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-100">
               <p className="text-center px-5 py-5">
                 Showcasing my web development projects built using HTML, CSS,
@@ -33,12 +33,22 @@ export default function Project() {
               </p>
               <div className="flex justify-between px-1">
                 <p>
-                  <a className="btn text-center" href="">
+                  <a
+                    className="btn text-center"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Explore
                   </a>
                 </p>
                 <p>
-                  <a className="btn text-center" href="">
+                  <a
+                    className="btn text-center"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Repositories
                   </a>
                 </p>
@@ -46,7 +56,7 @@ export default function Project() {
             </div>
           </div>
           <div className="relative">
-            <img className="h-[200px] w-[500px]" src={ecomweb2} />
+            <img className="h-[200px] w-[500px]" src={ecomweb2} alt="" />
             <div className="absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-100">
               <p className="text-center px-5 py-5">
                 Get real-time weather updates with a sleek and responsive
@@ -57,6 +67,8 @@ export default function Project() {
                   <a
                     className="btn text-center"
                     href="https://rajaramanan308.github.io/weather-project/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Explore
                   </a>
@@ -65,6 +77,8 @@ export default function Project() {
                   <a
                     className="btn text-center"
                     href="https://github.com/RajaRamanan308/weather-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Repositories
                   </a>
@@ -73,7 +87,7 @@ export default function Project() {
             </div>
           </div>
           <div className="relative">
-            <img className="h-[200px] w-[500px]" src={ecomweb3} />
+            <img className="h-[200px] w-[500px]" src={ecomweb3} alt="" />
             <div className="absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-100">
               <p className="text-center px-5 py-5">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -81,12 +95,22 @@ export default function Project() {
               </p>
               <div className="flex justify-between px-1">
                 <p>
-                  <a className="btn text-center" href="">
+                  <a
+                    className="btn text-center"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Explore
                   </a>
                 </p>
                 <p>
-                  <a className="btn text-center" href="">
+                  <a
+                    className="btn text-center"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Repositories
                   </a>
                 </p>

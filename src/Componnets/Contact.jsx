@@ -1,5 +1,3 @@
-import ResumeImg from "../assets/resume.jpg";
-
 export default function Resume() {
   return (
     <section

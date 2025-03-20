@@ -7,7 +7,7 @@ export default function Resume() {
       className="flex flex-col md:flex-row bg-secondary px-5 pb-5"
     >
       <div className="md:w-1/2 mt-10 flex justify-center">
-        <img className="w-[300px]" src={ResumeImg} />
+        <img className="w-[300px]" src={ResumeImg} alt="" />
       </div>
       <div className="md:w-1/2 flex justify-center items-center py-5">
         <div className="text-white">
