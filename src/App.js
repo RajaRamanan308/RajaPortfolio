@@ -6,10 +6,12 @@ import Header from './Componnets/Header';
 import Hero from './Componnets/Hero';
 import Project from './Componnets/Project';
 import Resume from './Componnets/Resume';
-import { app } from "./firebaseConfig";
+import { fireBaseApp } from './firebaseConfig';
 
+
+// fireBaseApp()
 function App() {
-  console.log("Firebase App Initialized:", app);
+  console.log("Firebase App Initialized:", fireBaseApp);
   return (
     <>
       <Header/>
