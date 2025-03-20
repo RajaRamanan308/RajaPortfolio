@@ -18,7 +18,7 @@ function Header() {
         <nav className="hidden md:block">
           <ul className="flex text-white">
             <li>
-              <a href="/" target="_blank" rel="noopener noreferrer">
+              <a href="#about" target="_blank" rel="noopener noreferrer">
                 Home
               </a>
             </li>
