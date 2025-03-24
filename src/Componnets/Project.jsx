@@ -35,7 +35,7 @@ export default function Project() {
                 <p>
                   <a
                     className="btn text-center"
-                    href="/"
+                    href="#hero"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -45,7 +45,7 @@ export default function Project() {
                 <p>
                   <a
                     className="btn text-center"
-                    href="/"
+                    href="https://github.com/RajaRamanan308/RajaPortfolio"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

@@ -15,11 +15,21 @@ export default function Resume() {
           <h1 className="text-4xl border-b-4 border-[#5551e3] mb-4 w-[133px] font-bold">
             Resume
           </h1>
-          <p className="text-2xl ">Lorem ipsum dolor sit amet.</p>
+          <p className="text-2xl ">
+            My resume highlights my expertise in full-stack development,
+            showcasing my skills in front-end and back-end technologies such as
+            HTML, CSS, JavaScript, React, Java, Spring Boot, and MySQL. It
+            reflects my commitment to delivering efficient and scalable
+            solutions, along with my experience in building dynamic web
+            applications. Download my resume to learn more about my projects,
+            technical skills, and achievements
+          </p>
           <p>
             {" "}
             <br />
             <a
+              target="_blank"
+              rel="noreferrer"
               className="btn"
               href="https://drive.google.com/file/d/1GHi63B4L6ROl701Jt2PDOJNmBe7Ifqrw/view?usp=sharing"
             >
