@@ -8,37 +8,56 @@ function Header() {
     <>
       <header className="header flex justify-between px-5 py-2 bg-secondary">
         <a
-          className="font-bold text-black"
-          href="/"
-          target="_blank"
+          className="font-bold text-xl text-black duration-500 hover:text-white"
+          href="#hero"
           rel="noopener noreferrer"
         >
           Portfolio
         </a>
         <nav className="hidden md:block">
-          <ul className="flex text-white">
+          <ul className="flex text-xl text-white">
             <li>
-              <a href="/" target="_blank" rel="noopener noreferrer">
+              <a
+                className="duration-100 navi"
+                href="#hero"
+                rel="noopener noreferrer"
+              >
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" target="_blank" rel="noopener noreferrer">
+              <a
+                className="duration-100 navi"
+                href="#about"
+                rel="noopener noreferrer"
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="#resume" target="_blank" rel="noopener noreferrer">
-                Resume
-              </a>
-            </li>
-            <li>
-              <a href="#project" target="_blank" rel="noopener noreferrer">
+              <a
+                className="duration-100 navi"
+                href="#project"
+                rel="noopener noreferrer"
+              >
                 Projects
               </a>
             </li>
             <li>
-              <a href="#contact" target="_blank" rel="noopener noreferrer">
+              <a
+                className="duration-100 navi"
+                href="#resume"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
+            </li>
+            <li>
+              <a
+                className="duration-100 navi"
+                href="#contact"
+                rel="noopener noreferrer"
+              >
                 Contact
               </a>
             </li>
@@ -48,30 +67,30 @@ function Header() {
           <nav className="block md:hidden">
             <ul
               onClick={() => setToggleMenu(!toggleMenu)}
-              className="flex flex-col text-white mobile-nav"
+              className="flex flex-col text-white mobile-nav text-xl"
             >
               <li>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="#hero" rel="noopener noreferrer">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#about" target="_blank" rel="noopener noreferrer">
+                <a href="#about" rel="noopener noreferrer">
                   About
                 </a>
               </li>
               <li>
-                <a href="#resume" target="_blank" rel="noopener noreferrer">
-                  Resume
-                </a>
-              </li>
-              <li>
-                <a href="#project" target="_blank" rel="noopener noreferrer">
+                <a href="#project" rel="noopener noreferrer">
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#contact" target="_blank" rel="noopener noreferrer">
+                <a href="#resume" rel="noopener noreferrer">
+                  Resume
+                </a>
+              </li>
+              <li>
+                <a href="#contact" rel="noopener noreferrer">
                   Contact
                 </a>
               </li>

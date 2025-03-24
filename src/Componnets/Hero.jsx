@@ -24,7 +24,7 @@ function Hero() {
           </h1>
           <div className="flex py-2">
             <a
-              className="pr-3 hover:text-white"
+              className="pr-3 duration-500 hover:text-white"
               href="https://www.linkedin.com/in/rajaramana308/"
               target="_blank"
               rel="noopener noreferrer"
@@ -32,7 +32,7 @@ function Hero() {
               <FaLinkedin size={30} />
             </a>
             <a
-              className="pr-3 hover:text-white"
+              className="pr-3 duration-500 hover:text-white"
               href="https://wa.me/9385754667"
               target="_blank"
               rel="noopener noreferrer"
@@ -40,7 +40,7 @@ function Hero() {
               <FaWhatsapp size={30} />
             </a>
             <a
-              className="pr-3 hover:text-white"
+              className="pr-3 duration-500 hover:text-white"
               href="https://www.instagram.com/rajatheking2308/?next=%2F"
               target="_blank"
               rel="noopener noreferrer"
@@ -48,7 +48,7 @@ function Hero() {
               <BsInstagram size={30} />
             </a>
             <a
-              className="hover:text-white"
+              className="duration-500 hover:text-white"
               href="https://github.com/RajaRamanan308"
               target="_blank"
               rel="noopener noreferrer"
