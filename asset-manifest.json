@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/RajaPortfolio/static/css/main.f886239e.css",
-    "main.js": "/RajaPortfolio/static/js/main.d07c6916.js",
+    "main.css": "/RajaPortfolio/static/css/main.d0cd181d.css",
+    "main.js": "/RajaPortfolio/static/js/main.4190f01e.js",
     "static/media/weather.png": "/RajaPortfolio/static/media/weather.c310b653a309d616e147.png",
     "static/media/about.png": "/RajaPortfolio/static/media/about.619ff0b319a55d0c05b1.png",
     "static/media/hero.png": "/RajaPortfolio/static/media/hero.f14f30c6d01a97df04f6.png",
     "static/media/resume.jpg": "/RajaPortfolio/static/media/resume.40d9ec3d0701d254f50f.jpg",
+    "static/media/tmdb.jpg": "/RajaPortfolio/static/media/tmdb.6b0d5fdeba1ae9cb2232.jpg",
     "static/media/portfolio.avif": "/RajaPortfolio/static/media/portfolio.83473b0eeaaa4cc44d14.avif",
-    "static/media/website-blog.jpg": "/RajaPortfolio/static/media/website-blog.34169abf2d417858685b.jpg",
     "index.html": "/RajaPortfolio/index.html",
-    "main.f886239e.css.map": "/RajaPortfolio/static/css/main.f886239e.css.map",
-    "main.d07c6916.js.map": "/RajaPortfolio/static/js/main.d07c6916.js.map"
+    "main.d0cd181d.css.map": "/RajaPortfolio/static/css/main.d0cd181d.css.map",
+    "main.4190f01e.js.map": "/RajaPortfolio/static/js/main.4190f01e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f886239e.css",
-    "static/js/main.d07c6916.js"
+    "static/css/main.d0cd181d.css",
+    "static/js/main.4190f01e.js"
   ]
 }
