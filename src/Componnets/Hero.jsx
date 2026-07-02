@@ -14,7 +14,7 @@ function Hero() {
           <h1 className="text-white text-4xl fonstyle">
             Hi,
             <br />
-            I'm K RAJA RAMANAN
+            I'm K RAJA
             <p className="text-2xl">
               And I'm a{" "}
               <span className="text text-blue-400">
